@@ -108,7 +108,7 @@ with torch.no_grad():
 |--------------------|------:|----------------------------------------|
 | Val Accuracy       | 93%   | EarVN10 split 80/20                    |
 | Val F1 (female)    | 0.92  | Weighted by class frequency            |
-| Inference latency  | 6 ms  | Apple M2, batch size = 1               |
+| Inference latency  | 6 ms  | Apple M3 Pro, batch size = 1           |
 | Model size         | 13 MB | `ear_model.pth` (float32, no quant)    |
 
 *Numbers will shift with different random seeds or augmentation mixes.*
